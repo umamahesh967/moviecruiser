@@ -2,7 +2,9 @@ pipeline {
     agent any
 
    environment {
-        MYSQL_URL='172.23.238.153'
+        MYSQL_URL='172.23.238.168'
+        MYSQL_USER='root'
+	MYSQL_PASS='root123'
     }
 
    stages {
